@@ -15,7 +15,7 @@ const Nav = () => {
                         
                         <li className="nav-item mx-0 mx-lg-1" data-bs-toggle="modal" data-bs-target="#shoppingCart"><a className="nav-link py-3 px-0 px-lg-3 btn rounded"><FontAwesomeIcon icon={faShoppingCart}/> </a></li>
                         <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="#categories">Categorias</a></li>
-                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" to="/products">Productos</a></li>
+                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="/products">Productos</a></li>
                         <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact"></a></li>
                         
                     </ul>

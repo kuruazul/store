@@ -1,6 +1,6 @@
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import '../../js/catDisplayBtn.js'
+import '../../js/catDisplayBtn.js';
 import { useState,useEffect } from "react";
 const Index = () => {
     const [Categories,setCategories] = useState([])
