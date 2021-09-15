@@ -11258,6 +11258,8 @@ html {
     padding-bottom: 6rem;
     background-image: url("https://st.depositphotos.com/1031174/3338/i/950/depositphotos_33384441-stock-photo-tools.jpg");
     height: 80vh;
+    background-size: 100%;
+    background-position: 0;
 }
 
 .masthead .masthead-heading {

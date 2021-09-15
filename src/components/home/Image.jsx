@@ -3,7 +3,7 @@ const Image = () => {
     return(
         <header class="masthead bg-primary text-white text-center position-relative">
             
-            <div class="container d-flex align-items-center flex-column position-absolute">
+            <div class="container text-center d-flex align-items-center flex-column position-absolute">
                 
                 
                 
