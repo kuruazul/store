@@ -1,6 +1,6 @@
 import { useState } from "react"
 const ProductsQuery = (props) => {
-    const {List} = (props)
+    const {List,catFilter,brandFilter} = (props)
 
     const renderList=()=>{
         let listTemplate=[]

@@ -16,4 +16,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }
         })
     }
+    if (document.getElementById("btn-display-brands")) {
+        document.getElementById("brands-filter-data").style.display = "none"
+        document.getElementById("brands-filter-data").style.opacity = 0
+        document.getElementById("btn-display-brands").addEventListener('click', () => {
+
+            if (document.getElementById("brands-filter-data").style.display === 'none') {
+                document.getElementById("brands-filter-data").style.display = "grid"
+                document.getElementById("brands-filter-data").style.opacity = 1
+                document.getElementById("btn-display-brands").style.rotate = "90deg"
+            } else {
+                document.getElementById("brands-filter-data").style.display = "none"
+                document.getElementById("brands-filter-data").style.opacity = 0
+                document.getElementById("btn-display-brands").style.rotate = "0deg"
+            }
+        })
+    }
 });
