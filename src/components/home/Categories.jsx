@@ -5,7 +5,7 @@ const Categories = () => {
     const [Categories,setCategories] = useState([])
 
     const fetchCategories = async()=>{
-        let url = "http://localhost:1337/categorias";      
+        let url = "http://192.168.0.3:1337/categorias";      
         let raw_data = await fetch(url)
         let data = await raw_data.json()  
         console.log(data)
@@ -26,7 +26,7 @@ const Categories = () => {
                         </div>
                     </div>
                     {cat.Image != null ?
-                    <img class="img-fluid h-100 w-100" src={"http://localhost:1337"+cat.Image.url } alt="..." /> :
+                    <img class="img-fluid h-100 w-100" src={"http://192.168.0.3:1337"+cat.Image.url } alt="..." /> :
                     <img class="img-fluid h-100 w-100" src={""} alt="..." /> 
                     }
                 </div>

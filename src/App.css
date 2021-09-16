@@ -28,10 +28,12 @@
     color: #61dafb;
 }
 
+.product-display {
+    margin-top: 7rem;
+}
+
 .filter-bar {
     height: 90vh;
-    top: 17%;
-    position: fixed;
 }
 
 .filter-bar-header {
